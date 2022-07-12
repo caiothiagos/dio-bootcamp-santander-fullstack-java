@@ -54,3 +54,13 @@ a{
 .post_image{
     margin-bottom: 15px;
 }
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 1px;
+}
+
+.contacts_list li a {
+    color: blue;
+    text-decoration: none;
+}
