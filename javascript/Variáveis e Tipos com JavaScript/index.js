@@ -24,11 +24,18 @@ console.log(firstName, lastName);
 */
 
 /*
-//não faz hosting
+//não faz hoisting
 FIRST_NAME = "Stephany";
 console.log(FIRST_NAME);
 const FIRST_NAME = "Stephany";
-*/
+
 
 const FIRST_NAME = "Stephany";
 console.log(FIRST_NAME);
+*/
+
+                var                 const       let
+escopo          global ou local     bloco       bloco
+redeclarar      sim                 não         não
+reatribuir      sim                 não         sim
+hoisting        sim                 não         não
