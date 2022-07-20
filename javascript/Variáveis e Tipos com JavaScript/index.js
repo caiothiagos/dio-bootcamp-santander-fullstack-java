@@ -51,6 +51,7 @@ um = 1
 typeof um
 */
 
+/*
 let nome = "João"
 nome
 
@@ -110,3 +111,40 @@ let stringModificada = frase.replace(",", "!")
 frase
 
 stringModificada
+*/
+
+let num = 100
+
+100 + 3
+
+100 / 5
+
+num * 5
+
+num % 2
+
+num2 = 101
+
+num2 % 2
+
+typeof Math
+
+Math.PI
+
+let fiveByThree =  5 / 3
+
+fiveByThree
+
+Math.floor(fiveByThree)
+
+Math.ceil(fiveByThree)
+
+percent = 10
+
+percent + "%"
+
+percent
+
+typeof percent
+
+percent.toString()
