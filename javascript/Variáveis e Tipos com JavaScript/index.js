@@ -152,6 +152,7 @@ typeof percent
 percent.toString()
 */
 
+/*
 let validation = 3 === 0
 
 validation
@@ -169,3 +170,40 @@ validation = 3 >= 2
 validation.toString()
 
 !validation
+*/
+
+let array =  []
+
+let array2 = new Array()
+
+array.push(3)
+
+array
+
+array.push(2)
+
+array
+
+array.pop()
+
+array.push(2)
+
+array.push(5)
+
+array.shift()
+
+array.unshift()
+
+array
+
+for(let i = 0; i < array.length; i++){
+    console.log(array[i])
+}
+
+array.includes(3)
+
+array.every(item => item === 5)
+
+array.some(item => item === 5)
+
+array.reverse()
