@@ -10,6 +10,7 @@ console.log(numberOne + 2);
 let numberOne;
 */
 
+/*
 var firstName = 'João';
 var lastName = 'Souza';
 if(firstName === 'João'){
@@ -19,5 +20,15 @@ if(firstName === 'João'){
 
     console.log(lastName);
 }
-
 console.log(firstName, lastName);
+*/
+
+/*
+//não faz hosting
+FIRST_NAME = "Stephany";
+console.log(FIRST_NAME);
+const FIRST_NAME = "Stephany";
+*/
+
+const FIRST_NAME = "Stephany";
+console.log(FIRST_NAME);
