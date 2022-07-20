@@ -210,6 +210,7 @@ array.some(item => item === 5)
 array.reverse()
 */
 
+/*
 let obj = {}
 
 typeof obj
@@ -245,3 +246,39 @@ let mom = "nameOfMom"
 person.[mom] =  "Maria"
 
 person.mom = "marta"
+*/
+
+abacaxi
+
+typeof abacaxi
+
+let abacaxi =  ""
+
+abacaxi
+
+typeof abacaxi
+
+abacaxi = null
+
+typeof abacaxi
+
+abacaxi === true
+
+abacaxi === false
+
+let fruta = abacaxi
+
+fruta
+
+fruta = abacaxi === false
+
+fruta
+
+!abacaxi
+
+let maca
+
+!maca
+
+undefined === false
+
