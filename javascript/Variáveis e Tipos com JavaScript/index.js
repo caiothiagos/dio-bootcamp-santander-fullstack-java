@@ -34,8 +34,17 @@ const FIRST_NAME = "Stephany";
 console.log(FIRST_NAME);
 */
 
+/*
                 var                 const       let
 escopo          global ou local     bloco       bloco
 redeclarar      sim                 não         não
 reatribuir      sim                 não         sim
 hoisting        sim                 não         não
+*/
+
+let um = "um";
+um
+typeof um
+
+um = 1
+typeof um
