@@ -172,6 +172,7 @@ validation.toString()
 !validation
 */
 
+/*
 let array =  []
 
 let array2 = new Array()
@@ -207,3 +208,40 @@ array.every(item => item === 5)
 array.some(item => item === 5)
 
 array.reverse()
+*/
+
+let obj = {}
+
+typeof obj
+
+obj.name = "julia"
+
+obj
+
+obj.age = 20
+
+obj
+
+Object.values(obj)
+
+Object.keys(obj)
+
+let person = {
+    name: "Julia",
+    age: 20,
+    adress: "Rua 2"
+}
+
+person.name
+
+person["name"]
+
+person["numberOfSiblings"] = 3
+
+person
+
+let mom = "nameOfMom"
+
+person.[mom] =  "Maria"
+
+person.mom = "marta"
