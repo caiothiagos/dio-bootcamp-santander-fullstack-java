@@ -75,6 +75,7 @@ input.addEventListener('input', (event) => {
 })
 */
 
+/*
 //Generic types
 
 function adicionaApendiceALista <T>(array: T[], valor: T){
@@ -82,3 +83,21 @@ function adicionaApendiceALista <T>(array: T[], valor: T){
 }
 
 adicionaApendiceALista([1, 2, 3], 1)
+*/
+
+interface IUsuario{
+    id: string;
+    email: string;
+}
+
+interface IAdmin extends IUsuario{
+    cargo: 'gerente' | 'coordenador' | 'supervisor'
+}
+
+function redirecione(usuario: IUsuario | IAdmin){
+    if('cargo' in usuario){
+        //redireciona para a área de administração
+    }
+
+    //redireciona para a área do usuário
+}
