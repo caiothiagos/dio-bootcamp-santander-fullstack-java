@@ -1,3 +1,4 @@
+/*
 console.log('TypeScript')
 
 function soma(a: number, b: number){
@@ -17,13 +18,13 @@ interface IAnimal {
     // executarRugido(alturaEmDecibeis: number): void;
 }
 
-/*
+
 type IAnimal = {
     nome: string;
     tipo: 'terrestre' | 'áquatico';
     executarRugido(alturaEmDecibeis: number): void;
 }
-*/
+
 
 interface IFelino extends IAnimal{
     visaoNoturna: boolean;
@@ -62,3 +63,13 @@ const animalD: IDomestico = {
     porte: 'medio',
     tipo: 'terrestre'
 }
+*/
+
+const input = document.getElementById('input') as HTMLInputElement;
+
+//input.value;
+
+input.addEventListener('input', (event) => {
+    const i = document.getElementById('input') as HTMLInputElement;
+    console.log(i.value)
+})
