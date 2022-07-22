@@ -64,7 +64,7 @@ const animalD: IDomestico = {
     tipo: 'terrestre'
 }
 */
-
+/*
 const input = document.getElementById('input') as HTMLInputElement;
 
 //input.value;
@@ -73,3 +73,12 @@ input.addEventListener('input', (event) => {
     const i = document.getElementById('input') as HTMLInputElement;
     console.log(i.value)
 })
+*/
+
+//Generic types
+
+function adicionaApendiceALista <T>(array: T[], valor: T){
+    return array.map( () => valor)
+}
+
+adicionaApendiceALista([1, 2, 3], 1)
