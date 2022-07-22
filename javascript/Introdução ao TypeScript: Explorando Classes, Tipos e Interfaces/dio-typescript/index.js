@@ -1,3 +1,4 @@
+"use strict";
 /*
 console.log('TypeScript')
 
@@ -74,7 +75,7 @@ input.addEventListener('input', (event) => {
     console.log(i.value)
 })
 */
-
+exports.__esModule = true;
 /*
 //Generic types
 
@@ -102,7 +103,6 @@ function redirecione(usuario: IUsuario | IAdmin){
     //redireciona para a área do usuário
 }
 */
-
 /*
 interface IUsuario{
     id: string;
@@ -118,7 +118,6 @@ function redirecione(usuario: IUsuario){
     // redirecionar para a área do usário
 }
 */
-
 /*
 interface Cachorro{
     nome: string;
@@ -162,7 +161,6 @@ cao.idade = 8;
 
 console.log(cao)
 */
-
 /*
 interface Estudante {
     nome: string;
@@ -185,5 +183,4 @@ $.fn.extend({
 $('input').novaFuncao();
 
 */
-
-export const numero = 2;
+exports.numero = 2;
