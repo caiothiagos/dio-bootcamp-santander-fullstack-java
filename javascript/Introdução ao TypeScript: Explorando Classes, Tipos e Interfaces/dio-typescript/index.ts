@@ -103,6 +103,7 @@ function redirecione(usuario: IUsuario | IAdmin){
 }
 */
 
+/*
 interface IUsuario{
     id: string;
     email: string;
@@ -116,3 +117,46 @@ function redirecione(usuario: IUsuario){
     }
     // redirecionar para a área do usário
 }
+*/
+
+interface Cachorro{
+    nome: string;
+    idade: number;
+    parqueFavorito?: string;
+}
+
+type CachorroSomenteLeitura = {
+    readonly[K in keyof Cachorro]: Cachorro[K];
+}
+
+const meuCachorro: Cachorro = {
+    nome: 'Apolo',
+    idade: 14
+}
+
+class MeuCachorro implements Cachorro{
+    idade = 14;
+    nome = 'Apolo';
+
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+
+class MeuCachorroLeitura implements CachorroSomenteLeitura{
+    idade;
+    nome;
+
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+const cao = new MeuCachorroLeitura('Apolo', 14)
+
+cao.idade = 8;
+
+console.log(cao)
