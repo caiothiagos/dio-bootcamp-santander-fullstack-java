@@ -84,7 +84,7 @@ function adicionaApendiceALista <T>(array: T[], valor: T){
 
 adicionaApendiceALista([1, 2, 3], 1)
 */
-
+/*
 interface IUsuario{
     id: string;
     email: string;
@@ -100,4 +100,19 @@ function redirecione(usuario: IUsuario | IAdmin){
     }
 
     //redireciona para a área do usuário
+}
+*/
+
+interface IUsuario{
+    id: string;
+    email: string;
+    cargo?: 'gerente' | 'coordenador' | 'supervisor' | 'funcionario'
+}
+
+
+function redirecione(usuario: IUsuario){
+    if(usuario.cargo){
+        //redirecionar(usuario.cargo)
+    }
+    // redirecionar para a área do usário
 }
