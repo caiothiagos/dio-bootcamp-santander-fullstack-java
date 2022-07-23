@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "watch": "tsc --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Caio Rocha (http://caiothiagos.tk)",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.7.4"
   },

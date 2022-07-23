@@ -1,3 +1,4 @@
+/*
 //console.log('Estou vinculado ao index.html')
 
 let button = document.getElementById('button')
@@ -16,3 +17,4 @@ function somarNumeros (numero1, numero2){
 button.addEventListener('click', () => {
     console.log(somarNumeros(input1.value, input2.value))
 })
+*/
