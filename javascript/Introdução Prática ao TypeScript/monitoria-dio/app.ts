@@ -1,35 +1,69 @@
-let button = document.getElementById('button')
-let input1 = document.getElementById('input1') as HTMLInputElement
-let input2 = document.getElementById('input2') as HTMLInputElement
-/*
-function somarNumeros (numero1: number, numero2: number){
-    if(typeof numero1 === 'number' && typeof numero2 === 'number'){
-        return numero1 + numero2
-    }else{
-        return Number(numero1) + Number(numero2)
+const pessoa = {
+    nome: 'Mariana',
+    idade: 28,
+    profissao: 'desenvolvedora'
+}
+
+pessoa.idade = 25
+
+const andre: {nome: string, idade: number, profissao: string} = {
+    nome: 'Andre',
+    idade: 25,
+    profissao: 'pintor'
+}
+
+const paula: {nome: string, idade: number, profissao: string} = {
+    nome: 'Paula',
+    idade: 25,
+    profissao: 'Desenvolvedora'
+}
+
+enum Profissao{
+    Proesessora,
+    Atriz,
+    Desenvolvedora,
+    JogadoraDeFutebol
+}
+
+interface Pessoa {
+    nome: string,
+    idade: number,
+    profissao?: Profissao
+}
+
+interface Estudate extends Pessoa{
+    materias: string[]
+}
+
+const vanessa: Pessoa = {
+    nome: 'Vanessa',
+    idade: 23,
+    profissao: Profissao.Desenvolvedora
+}
+
+const maria: Pessoa = {
+    nome: 'Maria',
+    idade: 23,
+    profissao: Profissao.Desenvolvedora
+}
+
+const jessica: Estudate = {
+    nome: 'Jessica',
+    idade: 28,
+    profissao: Profissao.Desenvolvedora,
+    materias: ['Matemátia discreta', 'programação']
+}
+
+const monica: Estudate = {
+    nome: 'Jessica',
+    idade: 28,
+    materias: ['Matemátia discreta', 'programação']
+}
+
+function listar(lista: string[]){
+    for(const item of lista){
+        console.log('- ', item)
     }
-    
-}
-*/
-
-function somarNumeros (numero1: number, numero2: number, devePrintar: boolean, frase: string){
-    let resultado = numero1 + numero2
-    if(devePrintar){
-        return console.log( frase + resultado)
-    }else{
-        return Number(numero1) + Number(numero2)
-    }
-    
 }
 
-let devePrintar = true
-let frase = 'O valor é: '
-
-if(button){
-    button.addEventListener('click', () => {
-        if(input1 && input2){
-            console.log(somarNumeros(Number(input1.value), Number(input2.value), devePrintar, frase))
-        }
-        
-    })
-}
+listar(monica.materias)

@@ -1,32 +1,52 @@
 "use strict";
-var button = document.getElementById('button');
-var input1 = document.getElementById('input1');
-var input2 = document.getElementById('input2');
-/*
-function somarNumeros (numero1: number, numero2: number){
-    if(typeof numero1 === 'number' && typeof numero2 === 'number'){
-        return numero1 + numero2
-    }else{
-        return Number(numero1) + Number(numero2)
+var pessoa = {
+    nome: 'Mariana',
+    idade: 28,
+    profissao: 'desenvolvedora'
+};
+pessoa.idade = 25;
+var andre = {
+    nome: 'Andre',
+    idade: 25,
+    profissao: 'pintor'
+};
+var paula = {
+    nome: 'Paula',
+    idade: 25,
+    profissao: 'Desenvolvedora'
+};
+var Profissao;
+(function (Profissao) {
+    Profissao[Profissao["Proesessora"] = 0] = "Proesessora";
+    Profissao[Profissao["Atriz"] = 1] = "Atriz";
+    Profissao[Profissao["Desenvolvedora"] = 2] = "Desenvolvedora";
+    Profissao[Profissao["JogadoraDeFutebol"] = 3] = "JogadoraDeFutebol";
+})(Profissao || (Profissao = {}));
+var vanessa = {
+    nome: 'Vanessa',
+    idade: 23,
+    profissao: Profissao.Desenvolvedora
+};
+var maria = {
+    nome: 'Maria',
+    idade: 23,
+    profissao: Profissao.Desenvolvedora
+};
+var jessica = {
+    nome: 'Jessica',
+    idade: 28,
+    profissao: Profissao.Desenvolvedora,
+    materias: ['Matemátia discreta', 'programação']
+};
+var monica = {
+    nome: 'Jessica',
+    idade: 28,
+    materias: ['Matemátia discreta', 'programação']
+};
+function listar(lista) {
+    for (var _i = 0, lista_1 = lista; _i < lista_1.length; _i++) {
+        var item = lista_1[_i];
+        console.log('- ', item);
     }
-    
 }
-*/
-function somarNumeros(numero1, numero2, devePrintar, frase) {
-    var resultado = numero1 + numero2;
-    if (devePrintar) {
-        return console.log(frase + resultado);
-    }
-    else {
-        return Number(numero1) + Number(numero2);
-    }
-}
-var devePrintar = true;
-var frase = 'O valor é: ';
-if (button) {
-    button.addEventListener('click', function () {
-        if (input1 && input2) {
-            console.log(somarNumeros(Number(input1.value), Number(input2.value), devePrintar, frase));
-        }
-    });
-}
+listar(monica.materias);
