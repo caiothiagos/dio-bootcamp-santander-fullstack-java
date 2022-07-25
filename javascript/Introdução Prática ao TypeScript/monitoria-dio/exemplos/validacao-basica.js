@@ -18,3 +18,11 @@ button.addEventListener('click', () => {
     console.log(somarNumeros(input1.value, input2.value))
 })
 */
+
+//npm init                                  cria o arquivo package.json
+//npm install --save-dev typescript         cria o arquivo package-lock.json
+//npm install lite-serser                   biblioteca servidor para executar a aplicação (index.html)
+//npm start                                 inicia a aplicação
+//tsc --init                                cria o arquivo tsconfig.json
+//"watch": "tsc --watch"                    complila o TS conforme salva o arquivo (pa)
+//npm run watch                             executa o watch

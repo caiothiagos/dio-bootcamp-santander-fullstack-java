@@ -8,8 +8,8 @@
     "start": "lite-server",
     "watch": "tsc --watch"
   },
-  "author": "Caio Rocha (http://caiothiagos.tk)",
-  "license": "MIT",
+  "author": "Caio Rocha (http://caiothiagos.tk",
+  "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
   },
