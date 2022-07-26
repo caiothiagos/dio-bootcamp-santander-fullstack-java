@@ -1,0 +1,14 @@
+Instalação do Node
+$ sudo apt install -y nodejs
+
+Versão NodeJs
+$ node -v
+
+Versão NPM
+$ npm -v
+
+Instalação Angular CLI
+$ sudo npm install -g @angular/cli
+
+Versão Angular
+ng version
