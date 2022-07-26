@@ -12,3 +12,9 @@ $ sudo npm install -g @angular/cli
 
 Versão Angular
 ng version
+
+Nova conguração e Curso
+ng new course-manager
+
+Inicia a aplicação
+ng serve
