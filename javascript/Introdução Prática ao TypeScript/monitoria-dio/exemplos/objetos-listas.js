@@ -15,13 +15,13 @@ var paula = {
     idade: 25,
     profissao: 'Desenvolvedora'
 };
-var Profissao;
-(function (Profissao) {
-    Profissao[Profissao["Proesessora"] = 0] = "Proesessora";
-    Profissao[Profissao["Atriz"] = 1] = "Atriz";
-    Profissao[Profissao["Desenvolvedora"] = 2] = "Desenvolvedora";
-    Profissao[Profissao["JogadoraDeFutebol"] = 3] = "JogadoraDeFutebol";
-})(Profissao || (Profissao = {}));
+var Profissao2;
+(function (Profissao2) {
+    Profissao2[Profissao2["Proesessora"] = 0] = "Proesessora";
+    Profissao2[Profissao2["Atriz"] = 1] = "Atriz";
+    Profissao2[Profissao2["Desenvolvedora"] = 2] = "Desenvolvedora";
+    Profissao2[Profissao2["JogadoraDeFutebol"] = 3] = "JogadoraDeFutebol";
+})(Profissao2 || (Profissao2 = {}));
 var vanessa = {
     nome: 'Vanessa',
     idade: 23,

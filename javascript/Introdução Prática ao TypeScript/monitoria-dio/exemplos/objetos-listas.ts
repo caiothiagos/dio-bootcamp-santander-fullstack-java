@@ -18,7 +18,7 @@ const paula: {nome: string, idade: number, profissao: string} = {
     profissao: 'Desenvolvedora'
 }
 
-enum Profissao{
+enum Profissao2{
     Proesessora,
     Atriz,
     Desenvolvedora,
