@@ -24,5 +24,5 @@ button.addEventListener('click', () => {
 //npm install lite-serser                   biblioteca servidor para executar a aplicação (index.html)
 //npm start                                 inicia a aplicação
 //tsc --init                                cria o arquivo tsconfig.json
-//"watch": "tsc --watch"                    complila o TS conforme salva o arquivo (pa)
+//"watch": "tsc --watch"                    complila o TS conforme está salvo o arquivo (tsconfig.json)
 //npm run watch                             executa o watch
