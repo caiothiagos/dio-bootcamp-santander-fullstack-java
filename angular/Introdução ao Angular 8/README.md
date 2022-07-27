@@ -21,3 +21,6 @@
 
 # Após finalizar a aplicação na próxima iniciação pode causar o erro (Error: ENOSPC: System limit for number of file watchers reached)
 ** $ sudo sysctl -w fs.inotify.max_user_watches=524288 **
+
+# Instalar bootstrap
+** $ npm install bootstrap **
