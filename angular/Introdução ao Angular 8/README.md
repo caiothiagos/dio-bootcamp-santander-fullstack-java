@@ -24,3 +24,6 @@
 
 # Instalar bootstrap
 ** $ npm install bootstrap **
+
+# Instalar font-awesome
+** $ npm install font-awesome **
