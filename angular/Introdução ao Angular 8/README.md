@@ -27,3 +27,6 @@
 
 # Instalar font-awesome
 ** $ npm install font-awesome **
+
+# Repositório de estudo
+** https://github.com/wesllhey/course-manager **
