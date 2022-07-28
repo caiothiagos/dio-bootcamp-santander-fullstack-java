@@ -1,33 +1,32 @@
 # Instalação do Node
-** $ sudo apt install -y nodejs **
+$ sudo apt install -y nodejs
 
 # Versão NodeJs
-** $ node -v **
+$ node -v
 
 # Versão NPM
-** $ npm -v **
+$ npm -v
 
 # Instalação Angular CLI
-** $ sudo npm install -g @angular/cli **
+$ sudo npm install -g @angular/cli
 
 # Versão Angular
-** $ ng version **
+$ ng version
 
 # Nova configuração e Curso
-** $ ng new course-manager **
+$ ng new course-manager
 
 # Inicia a aplicação
-** $ ng serve **
+$ ng serve
 
 # Após finalizar a aplicação na próxima iniciação pode causar o erro (Error: ENOSPC: System limit for number of file watchers reached)
-** $ sudo sysctl -w fs.inotify.max_user_watches=524288 **
+$ sudo sysctl -w fs.inotify.max_user_watches=524288
 
 # Instalar bootstrap
-** $ npm install bootstrap **
+$ npm install bootstrap
 
 # Instalar font-awesome
-** $ npm install font-awesome **
+$ npm install font-awesome
 
 # Repositório de estudo
-** https://github.com/wesllhey/course-manager **
-
+https://github.com/wesllhey/course-manager
