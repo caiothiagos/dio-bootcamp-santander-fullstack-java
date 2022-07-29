@@ -18,3 +18,7 @@ $ ng serve -o
 
 # Intalar o Angular Material
 $ ng add @angular/material
+
+# Instalar component
+## g = genenrare / c = component / home = nome do component
+$ ng g c home
