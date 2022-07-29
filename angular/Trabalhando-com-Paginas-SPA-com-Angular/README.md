@@ -15,3 +15,6 @@ $ ng new spaangular --prefix=spa
 
 # Inicia o servidor de aplicação e abre o navegador
 $ ng serve -o
+
+# Intalar o Angular Material
+$ ng add @angular/material
