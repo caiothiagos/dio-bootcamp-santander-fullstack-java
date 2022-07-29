@@ -30,3 +30,7 @@ $ npm install font-awesome
 
 # Repositório de estudo
 https://github.com/wesllhey/course-manager
+
+# Iniciar o servidor
+## angular/Introducao-ao-Angular-8/servers/course-manager-server$
+node serve.js
