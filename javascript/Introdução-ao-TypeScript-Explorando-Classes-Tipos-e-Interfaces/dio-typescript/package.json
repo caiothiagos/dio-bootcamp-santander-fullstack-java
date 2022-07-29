@@ -1,0 +1,21 @@
+{
+  "name": "dio-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caio Rocha (http:caiothiagos.tk)",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "npm-lifecycle": "^3.1.5",
+    "parcel-bundler": "^1.3.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "typescript": "^4.7.4"
+  }
+}
