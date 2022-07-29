@@ -22,3 +22,9 @@ $ ng add @angular/material
 # Instalar component
 ## g = genenrare / c = component / home = nome do component
 $ ng g c home
+
+# Slide Material
+https://drive.google.com/file/d/1NTEol9-CNtz8nDqauxBQgPBRHs2kYbC5/view
+
+# Projeto GitHub
+https://github.com/cahferreira93/SPA-Angular
