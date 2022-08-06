@@ -1,4 +1,4 @@
 # TypeScript
-**/.cache/
-**/dist/
-**/node_modules/
+**/.cache/**
+**/dist/**
+**/node_modules/**
