@@ -54,3 +54,12 @@
 - Programação Orientada a Objetos
 - Desafios Iniciais Java - Santander Fullstack Developer
 - Criando um Banco Digital com Java e Orientação a Objetos
+
+## Módulo V - Spring Framework
+
+- Principais Protocolos de Comunicação da Internet
+- Introdução ao framework Spring Boot
+- Imersão no Spring Framework com Spring Boot
+- Adicionando Segurança a uma API REST com Spring Security
+- Desafios Intermediários Java - Santander Fullstack Developer
+- Explorando Padrões de Projetos na Prática com Java
